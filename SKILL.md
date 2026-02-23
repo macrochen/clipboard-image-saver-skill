@@ -1,3 +1,8 @@
+---
+name: clipboard-image-saver-skill
+description: "将剪贴板中的图片保存到本地下载目录。支持时间戳命名，适用于快速保存截图或网页复制的图片。"
+---
+
 # Clipboard Image Saver Skill
 
 此技能可以将剪贴板中的图片保存到系统的 Downloads 目录下，并以时间戳命名。
