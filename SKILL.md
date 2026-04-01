@@ -7,6 +7,20 @@ description: "将剪贴板中的图片保存到本地下载目录。支持时间
 
 此技能可以将剪贴板中的图片保存到系统的 Downloads 目录下，并以时间戳命名。
 
+## 默认输出位置
+
+保存结果默认位于：
+
+```text
+~/Downloads/clipboard_YYYYMMDD_HHMMSS.png
+```
+
+如果剪贴板中是多个图片文件路径，则会保存为：
+
+```text
+~/Downloads/clipboard_YYYYMMDD_HHMMSS_<原文件名>
+```
+
 ## 工具定义
 
 ### save_clipboard_image
