@@ -45,5 +45,5 @@ description: "将剪贴板中的图片保存到本地下载目录。支持时间
 
 调用方式：
 ```bash
-source .venv/bin/activate && python .gemini/skills/clipboard-image-saver-skill/save_image.py
+source .venv/bin/activate && python ~/.agents/skills/clipboard-image-saver-skill/save_image.py
 ```
